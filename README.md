@@ -14,7 +14,7 @@
 
 [Live Demo Link](https://livedemo.com)
 
-[![appScreenshot](images\app_screenshot.png)](https://livedemo.com)
+[![appScreenshot](images/app_screenshot.png)](https://livedemo.com)
 
 ## Getting Started
 
