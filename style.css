@@ -5,18 +5,42 @@
 }
 
 nav {
-  height: 200px;
   width: 100%;
   border: 2px solid #ccc;
 }
 
 h1 {
   width: 100%;
-  padding: 12px;
+  padding-top: 17px;
+  padding-bottom: 17px;
   font-weight: 400;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   border: 2px solid #ccc;
+}
+
+nav ul {
+  height: 256px;
+  overflow-y: scroll;
+}
+
+nav ul li {
+  padding: 10px 0 10px 25px;
+  border: 1px solid #555;
+}
+
+::-webkit-scrollbar {
+  width: 17px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #bbb;
 }
