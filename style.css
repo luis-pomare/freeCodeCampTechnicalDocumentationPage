@@ -19,6 +19,7 @@ h1 {
   justify-content: center;
   text-align: center;
   border: 2px solid #ccc;
+  font-size: 30px;
 }
 
 nav ul {
@@ -43,4 +44,10 @@ nav ul li {
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: #bbb;
+}
+
+main h2 {
+  padding: 17px 0px 17px 15px;
+  font-weight: 400;
+  font-size: 30px;
 }
