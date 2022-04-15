@@ -51,3 +51,12 @@ main h2 {
   font-weight: 400;
   font-size: 30px;
 }
+
+main p {
+  color: #4d4e53;
+  font-size: 0.96em;
+  line-height: 23px;
+  box-sizing: border-box;
+  padding-left: 34px;
+  padding-right: 40px;
+}
