@@ -6,7 +6,7 @@
 
 nav {
   width: 100%;
-  border: 2px solid #ccc;
+  border: 1px solid #000;
 }
 
 h1 {
@@ -18,7 +18,6 @@ h1 {
   align-items: center;
   justify-content: center;
   text-align: center;
-  border: 2px solid #ccc;
   font-size: 30px;
 }
 
@@ -29,7 +28,7 @@ nav ul {
 
 nav ul li {
   padding: 10px 0 10px 25px;
-  border: 1px solid #555;
+  border: 1px solid #000;
 }
 
 ::-webkit-scrollbar {
@@ -47,7 +46,7 @@ nav ul li {
 }
 
 main h2 {
-  margin: 17px 0px 17px 15px;
+  margin: 17px 0px 17px 25px;
   font-weight: 400;
   font-size: 30px;
 }
@@ -66,5 +65,15 @@ main ul li {
   font-size: 0.96em;
   line-height: 1.5;
   margin: 17px 40px 17px 68px;
-  line-height: 1.5;
+}
+
+code {
+  display: flex;
+  margin: 12px 45px 12px 45px;
+  border-radius: 4px;
+  background-color: #f7f7f7;
+  padding: 15px;
+  font-size: 0.76em;
+  line-height: 2;
+  color: #4d4e53;
 }
