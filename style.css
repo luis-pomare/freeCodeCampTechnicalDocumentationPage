@@ -77,3 +77,19 @@ code {
   line-height: 2;
   color: #4d4e53;
 }
+
+@media (min-width: 600px) {
+  body {
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+  }
+  nav,
+  nav ul,
+  main {
+    height: 100vh;
+    box-sizing: border-box;
+  }
+  main {
+    overflow-y: scroll;
+  }
+}
